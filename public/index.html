@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>AristoChat v1.0</title>
+    <style>
+    </style>
+  </head>
+  <body id="logged-out">
+    <section id="chat">
+      <ul id="messages">
+      </ul><ul id="users">
+      </ul>
+      <form action="">
+        <input id="m" autocomplete="off" /><button>Send</button>
+      </form>
+    </section>
+    <section id="login">
+     <h1>AristoChat - Bienvenue sur le Chat</h1>
+      <form action="">
+        <label for="u">Username</label>
+        <input id="u" autocomplete="off" autofocus />
+        <p><button>Login</button></p>
+      </form>
+    </section>
+    <!-- Fonctionne avec un CDN JQuery Plus récent ! -->
+    <!-- <script src="http://code.jquery.com/jquery-1.11.1.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
