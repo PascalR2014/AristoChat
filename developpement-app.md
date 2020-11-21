@@ -32,7 +32,7 @@ Le présent projet est issus d'un blog de Benjamin Bini
 
 IL est toujours possible d'augmenter le nombre de fonctionnalités mais le but essentiel est de faire comprendre les bases d'une ou plusieurs technologie(s) à tous les technophiles.
 
-* Il serait possible de faire du 'DRY' code avec ce projet.
+* Il serait possible de faire du 'DRY' ou du 'LEAN' code avec ce projet.
 
 * De l'inclure dans un projet pédagogique afin d'élaborer le projet 'from scratch' dans l'optique d'un projet agile professionnel.
 
