@@ -1,0 +1,15 @@
+{
+  "name": "aristochat",
+  "version": "1.0.0",
+  "description": "Tchat app avec Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pascal Richet <MonMail@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.2.1"
+  }
+}
